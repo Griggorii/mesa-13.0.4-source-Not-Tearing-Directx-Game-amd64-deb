@@ -35,3 +35,6 @@ Replace | заменяет mesa , libegl1-mesa-dev , mesa-common-dev , libgles2-
 
 Uninstall mesa_13.0.4 synaptic find griggorii@gmail.com update install reinstall mesa standart repository mesa
 
+Помочь в разработке графического стека можно по ссылке ниже
+Кошелек https://money.yandex.ru/to/410014999913799 
+
