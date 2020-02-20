@@ -5,6 +5,8 @@ llvm-9.0.1_1-1_amd64.deb https://drive.google.com/open?id=1COizcVRsss84l_tLQdxzu
 
 sudo dpkg -i llvm-9.0.1_1-1_amd64.deb
 
+Download folder tizonia https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7 tizonia run folder terminal command $$ sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
+
 sudo apt update && sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev libglu1-mesa-dev valgrind valgrind-dbg libxvmc-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxine2-dev libxatracker-dev -y && sudo apt libmesa-dev -y && sudo apt install libd3dadapter9-mesa-dev -y
 
 
