@@ -21,3 +21,15 @@ linux-image-4.4.0-116-generic_4.4.0-116.140_amd64.deb
 
 linux-image-extra-4.4.0-116-generic_4.4.0-116.140_amd64.deb
 
+---------------------------------------------------------------------
+
+Установка именно готового пакета
+
+sudo dpkg -i mesa_13.0.4-1_amd64.deb
+
+Replace | заменяет mesa , libegl1-mesa-dev , mesa-common-dev , libgles2-mesa-dev , libosmesa6-dev , libgl1-mesa-dri:amd64 , libgl1-mesa-dri:i386 , libgbm-dev:amd64 , libegl1-mesa-dev
+
+Состоит в таких группах video , games , users , kvm , voice , colord , pulse , pulse-access , bluetooth , rdma , irc , playonlinux , wine
+
+Uninstall mesa_13.0.4 synaptic find griggorii@gmail.com update install reinstall mesa standart repository mesa
+
