@@ -10,3 +10,10 @@ Run in folder terminal mesa-13.0.4
 ./configure --prefix=/usr --exec-prefix=/usr/lib/x86_64-linux-gnu/ --enable-glx-tls --enable-driglx-direct --enable-xa --enable-texture-float --enable-osmesa --enable-gles1 --enable-gles2 --enable-opencl-icd --with-dri-driverdir=/usr/lib/x86_64-linux-gnu/dri --with-gallium-drivers=r300,r600,radeonsi,svga,swrast --enable-autotools --with-gallium-drivers=r600 --disable-gallium-llvm --enable-sysfs --with-egl-platforms="drm,x11"
 
 make -j16
+
+Установите это ядро что бы внутри игр при вызове внутренне игрового гуя в wine именно в directx звук не заикался вместе с изображением https://github.com/Griggorii/linux-image-zfs-4.4.201_4.4.201-3_amd64 либо установите ядра от xenial список ниже
+linux-headers-4.4.0-116_4.4.0-116.140_all.deb
+linux-headers-4.4.0-116-generic_4.4.0-116.140_amd64.deb
+linux-image-4.4.0-116-generic_4.4.0-116.140_amd64.deb
+linux-image-extra-4.4.0-116-generic_4.4.0-116.140_amd64.deb
+
