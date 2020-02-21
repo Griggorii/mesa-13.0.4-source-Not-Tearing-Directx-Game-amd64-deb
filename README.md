@@ -7,7 +7,13 @@ sudo dpkg -i llvm-9.0.1_1-1_amd64.deb
 
 Download folder tizonia https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7 tizonia run in folder terminal command $$ sudo dpkg -i *.deb && sudo apt update -y && sudo apt install -f -y
 
-sudo rm - rf /etc/X11/xorg.conf /etc/X11/xorg.conf.failsafe /usr/share/X11/xorg.conf.d/20-nouveau.conf /usr/share/X11/xorg.conf.d/20-intel.conf
+sudo rm - rf /etc/X11/xorg.conf 
+
+sudo rm - rf /etc/X11/xorg.conf.failsafe 
+
+sudo rm - rf /usr/share/X11/xorg.conf.d/20-nouveau.conf 
+
+sudo rm - rf /usr/share/X11/xorg.conf.d/20-intel.conf
 
 sudo apt update && sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev libglu1-mesa-dev valgrind valgrind-dbg libxvmc-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxine2-dev libxatracker-dev -y && sudo apt libmesa-dev -y && sudo apt install libd3dadapter9-mesa-dev -y
 
@@ -36,7 +42,7 @@ linux-image-extra-4.4.0-116-generic_4.4.0-116.140_amd64.deb
 
 sudo dpkg -i mesa_13.0.4-1_amd64.deb
 
-Это свободная реалезация и любые xorg.conf должны быть обязательно удалены как сказано выше я посмотрю потом как можно разогнать по другому.
+Это свободная реалезация и любые xorg.conf должны быть обязательно удалены как сказано выше я посмотрю потом как можно разогнать по другому. Так же должна быть удалена папка со всем содержимым если она есть /etc/X11/xorg.d
 
 Replace | заменяет mesa , libegl1-mesa-dev , mesa-common-dev , libgles2-mesa-dev , libosmesa6-dev , libgl1-mesa-dri:amd64 , libgl1-mesa-dri:i386 , libgbm-dev:amd64 , libegl1-mesa-dev
 
