@@ -14,6 +14,8 @@ sudo rm - rf /etc/X11/xorg.conf.d
 
 sudo apt purge libxatracker-dev libgl-dev libglx-dev ibegl-dev 
 
+sudo apt purge xserver-xorg-video-intel -y
+
 install mesa_13.0.4-1_amd64.deb
 
 Uninstall mesa_13.0.4 synaptic find griggorii@gmail.com update install reinstall mesa standart repository mesa
