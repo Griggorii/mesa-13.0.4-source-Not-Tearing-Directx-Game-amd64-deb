@@ -16,6 +16,8 @@ sudo apt purge libxatracker-dev libgl-dev libglx-dev ibegl-dev
 
 sudo apt purge xserver-xorg-video-intel -y
 
+sudo apt purge libegl1-mesa libgles2-mesa libglu1-mesa:i386 libosmesa6 libosmesa6:i386 mesa-opencl-icd mesa-va-drivers mesa-va-drivers:i386 mesa-vdpau-drivers mesa-vdpau-drivers:i386 mesa-vulkan-drivers mesa-vulkan-drivers:i386 libxatracker-dev:amd64 libgl-dev:amd64 libglx-dev:amd64 libegl-dev:amd64  -y 
+
 install mesa_13.0.4-1_amd64.deb
 
 Uninstall mesa_13.0.4 synaptic find griggorii@gmail.com update install reinstall mesa standart repository mesa
